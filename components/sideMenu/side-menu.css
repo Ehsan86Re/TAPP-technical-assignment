@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.side-style {
+    background: var(--foreground);
+    color: var(--background);
+    @apply w-64 p-4 h-full
+}
