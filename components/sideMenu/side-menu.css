@@ -3,7 +3,11 @@
 .side-style {
     background: var(--foreground);
     color: var(--background);
-    @apply w-72 p-4 h-full
+    @apply w-72 p-4 h-full hidden md:block absolute md:static rounded-tr-2xl rounded-br-2xl
+}
+
+.qqq {
+    display: block;
 }
 
 .item {
@@ -12,4 +16,16 @@
 
 .item:hover {
     background-color: var(--hover);
+}
+
+.side-button {
+    background: var(--foreground);
+    color: var(--background);
+    @apply absolute top-2 -right-8 rounded-tr-full rounded-br-full w-8 h-13 cursor-pointer md:hidden content-center pl-2
+}
+
+.close-button {
+    background: var(--background);
+    color: var(--foreground);
+    @apply flex w-10 h-10 rounded-full items-center justify-center font-extrabold text-2xl cursor-pointer md:hidden
 }
