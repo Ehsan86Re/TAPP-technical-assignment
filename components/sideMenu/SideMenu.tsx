@@ -29,7 +29,7 @@ export default function SideMenu() {
                     </li>
                     <li className="item">
                         <Image src="/images/add-user.png" alt="Description of my image" width={25} height={20}/>
-                        <Link className="w-full" href="/users">Create User</Link>
+                        <Link className="w-full" href="/create">Create User</Link>
                     </li>
                 </ul>
             </aside>

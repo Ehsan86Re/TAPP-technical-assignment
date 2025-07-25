@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.input-style {
+    background: var(--foreground);
+    color: var(--background);
+    @apply w-60 h-8 rounded-md p-3
+}
