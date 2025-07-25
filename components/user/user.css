@@ -3,7 +3,7 @@
 .user-row {
   background: var(--foreground);
   color: var(--background);
-  @apply h-14 mb-3 mt-3 rounded-md content-center pr-3 pl-3 cursor-pointer
+  @apply h-14 mb-3 mt-3 rounded-md content-center pr-3 pl-3 cursor-pointer flex flex-row justify-between align-middle items-center
 }
 
 .user-row:hover {

@@ -1,4 +1,4 @@
-import fetchUsersList from "@/actions/fetchUsersList"
+import { fetchUsersList } from "@/actions/fetchData"
 import User from "@/components/user/User";
 import { UserType } from "@/types";
 

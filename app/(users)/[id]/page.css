@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.container {
+    background-color: var(--foreground);
+    color: var(--background);
+    @apply flex flex-col gap-2 rounded-2xl p-5
+}
+
+.data-section {
+    @apply h-50 p-2 gap-5 flex
+}
+
+.profile {
+    @apply w-40 h-40 rounded-full bg-gray-300
+}
+
+.loading-profile {
+    opacity: 1;
+    animation: fade 2s ease-in-out infinite;
+}
+
+.loading-box {
+    opacity: 1;
+    animation: fade 2s ease-in-out infinite;
+    @apply w-80 h-7 bg-gray-300 rounded-full
+}
+
+@keyframes fade {
+  0%,100% { opacity: 1 }
+  50% { opacity: 0 }
+}

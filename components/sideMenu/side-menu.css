@@ -3,5 +3,13 @@
 .side-style {
     background: var(--foreground);
     color: var(--background);
-    @apply w-64 p-4 h-full
+    @apply w-72 p-4 h-full
+}
+
+.item {
+    @apply p-2 rounded-md flex flex-row gap-2 items-center
+}
+
+.item:hover {
+    background-color: var(--hover);
 }
