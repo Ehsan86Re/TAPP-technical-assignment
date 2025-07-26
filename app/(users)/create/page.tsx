@@ -35,7 +35,7 @@ export default function Users() {
         //Send data
         const response = await createUser(formData);
 
-        //Handeling response to show success or error message
+        //Handle response to show success or error message
     }
 
     return (

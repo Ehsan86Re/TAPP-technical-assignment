@@ -1,4 +1,3 @@
-import Header from "@/components/header/Header";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,13 +6,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode; }) {
-
-    return (
-        <div>
-            <Header>
-                <h1 className="font-extrabold">Users List</h1>
-            </Header>
-            {children}
-        </div>
-    );
+    return children;
 };
